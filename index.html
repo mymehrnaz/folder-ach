@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <title>form 💁</title>
+   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  <!-- HTML -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#"> <img src="./achare.jpg" alt="logo" width="40px"/></a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link text-light" href="#">ثبت آدرس ها</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light href="#">مشاهده آدرس ها</a>
+  </li>
+</ul>
+  <section>
+   
+      
+       <br/>
+       <div class="man" id="action-page"> 
+       <form action="/action_page.php" target="_blank" method="get" autocomplete="on">
+<label class="box" for="Fname">* first-name:</label><br/>
+
+      <input type="text" name="fname" id="fname" placeholder="Full Name" required minlength="3"><br></br>
+        <label class="box" for="lname">* last-name:</label><br/>
+
+      <input type="text" name="lname" id="lname" placeholder="Full Name" required minlength="3"><br></br>
+      <label class="box" for="Email">* Email-ID:</label><br/>
+      <input type="text" name="Email" id="Email" placeholder="Email"  size="30" required><br></br>
+      <label class="box" for="contact">* mobile:</label><br/>
+      <input type="text" placeholder="Contact" required minlength="11"><br></br>
+      <label class="box" for="contact">phone:        with code</label><br/>
+      <input type="text" placeholder="Contact" minlength="11"><br></br>
+    <span class="box"> * Gender:</span> <br/>
+      <input type="radio" name="Gender" value="Male"><span class="box">Male</span> 
+      <input type="radio" name="Gender" value="Femail"><span class="box"> Femail</span>
+      <br></Br>
+      
+   <span class="box">* address:</span><br/><input type="text" placeholder="Address" size="30"  minlength="10">
+        <br></br>
+        <input type="submit" value="ثبت و ادامه">
+      </form>
+       </div>
+       
+    
+    </section>  
+    <hr/>
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#"> <img src="./achare.jpg" alt="logo" width="40px"/></a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link text-light href="#">ثبت آدرس ها</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light" href="action_page.php">مشاهده آدرس ها</a>
+  </li>
+</ul>
+ <br> <br/>
+  <div id="map"></div><br/>
+  <div class="sam"> 
+    <input type="submit" value="ثبت و ادامه">
+     
+  <hr/>
+<p> this site was coded by Mehrnaz Sadeghian </p>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>

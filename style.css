@@ -1,0 +1,52 @@
+body {
+    background-color : #9787C2;
+}
+html,body, #map {
+    height: 90%;
+    width: 90vw;
+    margin-left :8px;
+}
+
+.man{
+border :2px solid #3B3741;
+padding-top :12px;
+padding-left :8px;
+margin-bottom :10px;
+background :#453E59;
+border-radius :30px;
+width: 360px;
+margin-left :0 auto;
+box-shadow: 10px 5px 5px black;
+display: flex;
+justify-content: center;
+
+}
+.box{
+    color :white;
+}
+input {
+    background :#44366A;
+    color :white;
+}
+.sam{
+    margin-bottom :10px;
+}
+ button {
+            
+            font-size: 16px;
+            
+            border: 1px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: #3A4D4A 0.3s ease;
+            color: white;
+            background-color :#584A6E;
+            text-align :center;
+            display: block;
+            width :100px;
+            margin :0 auto;
+    
+        }
+        p{
+            text-align :center;
+        }
